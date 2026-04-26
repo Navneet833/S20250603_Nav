@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WanderLux Travel - Nav</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>WanderLux Travel</h1>
+    <p>Developed by Nav | snav883@gmail.com</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Calculator</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>Welcome to WanderLux</h2>
+    <p>Explore the world with our customised travel packages. We offer guided tours, honeymoon trips, and luxury travel experiences.</p>
+</section>
+
+<section>
+    <h2>Popular Services</h2>
+    <ul>
+        <li>Holiday Packages</li>
+        <li>Guided Tours</li>
+        <li>Flight & Hotel Booking</li>
+        <li>Honeymoon Specials</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Trip Cost Calculator</h2>
+
+    <label>Destination:</label><br>
+    <input type="text" id="destination" value="India"><br><br>
+
+    <label>Number of Travellers:</label><br>
+    <input type="number" id="people" value="2"><br><br>
+
+    <label>Number of Days:</label><br>
+    <input type="number" id="days" value="5"><br><br>
+
+    <label>Travel Style:</label><br>
+    <select id="style">
+        <option value="1">Budget</option>
+        <option value="2" selected>Standard</option>
+        <option value="3">Luxury</option>
+    </select><br><br>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <p id="result"></p>
+</section>
+
+<section>
+    <h2>Appointment Request</h2>
+
+    <input type="text" placeholder="Full Name" value="Nav"><br><br>
+    <input type="email" placeholder="Email" value="snav883@gmail.com"><br><br>
+    <input type="tel" placeholder="Phone" value="0412345678"><br><br>
+    <input type="date"><br><br>
+    <textarea placeholder="Message">I would like to plan a trip to India.</textarea><br><br>
+
+    <button>Submit Request</button>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>Email: snav883@gmail.com</p>
+    <p>Phone: 0412345678</p>
+    <p>Location: Melbourne, Australia</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

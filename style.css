@@ -1,0 +1,34 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #ff66b2;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+button {
+    background-color: pink;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
